@@ -1,0 +1,16 @@
+{
+  "name": "fake-api-server",
+  "version": "1.0.0",
+  "description": "Simple json-base database to deploy to Heroku",
+  "scripts": {
+    "start": "node fake-api.js",
+    "dev": "node fake-api.js",
+    "start:watch": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asif",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
